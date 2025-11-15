@@ -15,7 +15,7 @@ black = 0, 0, 0
 
 screen = pygame.display.set_mode(size)
 
-ball = pygame.image.load("OOPPractice/intro_ball.gif")
+ball = pygame.image.load("OOPPractice/bouncing_ball/intro_ball.gif")
 ballrect = ball.get_rect()
 rct = ball.get_rect()
 

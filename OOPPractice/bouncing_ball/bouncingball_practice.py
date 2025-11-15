@@ -19,7 +19,7 @@ class Screen:
 
 class Ball:
     def __init__(self, screen_size):
-        self._ball = pygame.image.load("OOPPractice/intro_ball.gif")
+        self._ball = pygame.image.load("OOPPractice/bouncing_ball/intro_ball.gif")
         self._rect = self._ball.get_rect()
         self._speed = [2, 2]
         self._screen_size = screen_size
